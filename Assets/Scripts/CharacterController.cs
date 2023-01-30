@@ -44,7 +44,7 @@ public class CharacterController : MonoBehaviour
     {
         _armPoint.DOMove(_basketPoint.position, 1f);
         _armPoint.DORotateQuaternion(_basketPoint.rotation, 1f);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(1.75f);
         RestartArmPosRot();
 
     }
